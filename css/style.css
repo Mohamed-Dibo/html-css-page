@@ -20,6 +20,8 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
+
 }
 .grid-3 {
   display: grid;
@@ -88,11 +90,11 @@ body {
   position: relative;
   width: 30px;
   height: 30px;
-  transition: width 0.5s ease;
-  -webkit-transition: width 0.5s ease;
-  -moz-transition: width 0.5s ease;
-  -ms-transition: width 0.5s ease;
-  -o-transition: width 0.5s ease;
+  transition: width 0.5s linear;
+  -webkit-transition: width 0.5s linear;
+  -moz-transition: width 0.5s linear;
+  -ms-transition: width 0.5s linear;
+  -o-transition: width 0.5s linear;
   transform-origin: left center;
 }
 .header .search input[type="text"] {
@@ -107,11 +109,11 @@ body {
   left: 0;
   font-size: 30px;
   cursor: pointer;
-  transition: transform 0.5s ease;
-  -webkit-transition: transform 0.5s ease;
-  -moz-transition: transform 0.5s ease;
-  -ms-transition: transform 0.5s ease;
-  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s linear;
+  -webkit-transition: transform 0.5s linear;
+  -moz-transition: transform 0.5s linear;
+  -ms-transition: transform 0.5s linear;
+  -o-transition: transform 0.5s linear;
   color: var(--main-color);
 }
 .header .search.active label i {
